@@ -40,7 +40,8 @@ function DataTable() {
 
     if (search) {
       computedComments = computedComments.filter(
-          comment => comment.id.toString().toLowerCase().indexOf(search.toLowerCase()) > -1 ||
+        comment => 
+          comment.id.toString().toLowerCase().indexOf(search.toLowerCase()) > -1 ||
           comment.name.toLowerCase().includes(search.toLowerCase()) ||
           comment.email.toLowerCase().includes(search.toLowerCase()) ||
           comment.body.toLowerCase().includes(search.toLowerCase())
