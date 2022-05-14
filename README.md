@@ -6,11 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
+1. Supports sorting: click the "Name" or "Email" in the header bar to get data sorted;
+2. Supports searching: search by ID, Name, Email and Comment;
+3. Support pagination: display 50 data per page;
+4. Using fetch to get data from an API
+5. Using React Hooks Api.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
+## To be continued..
+1. Add filter function to look up specific data;
+2. Apply bootstrap framework.
